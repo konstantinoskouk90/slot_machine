@@ -65,7 +65,7 @@ class App extends Component {
     return (
       <div className="fruit-machine-container">
         <div className="top-wrapper">
-          <div className="title">Fruit Machine</div>
+          <div className="title">Slot Machine</div>
         </div>
         <div className="wheel-container">
           {wheel_cmp}
