@@ -1,0 +1,79 @@
+@import "reset"
+@import "mixins"
+@import url('https://fonts.googleapis.com/css?family=Pacifico')
+
+body
+  font-size 16px
+  font-family Pacifico
+  padding 20px
+
+.fruit-machine-container
+  flexbox(flex, column, center, center)
+
+.top-wrapper
+  flexbox(flex, row, center, center)
+  dimensions(304.5px, 60px)
+  bgcolor(white)
+  border-top: 5px solid #000000
+  border-left: 5px solid #000000
+  border-right: 5px solid #000000
+  margin-top: 30px
+  .image-container
+    flexbox(flex, row, center, center)
+    dimensions(60px, 60px)
+    img
+      dimensions(50px, 43.5px)
+
+.title
+  color: #00000
+  font-family: Pacifico
+  font-size: 25px
+  
+.wheel-container
+  flexbox(flex, row, space-between, center)
+  align-items: center
+  width 315px
+  .wheel
+    flexbox(flex, row, center, center)
+    dimensions(100px, 200px)
+    border-top: 5px solid #000000
+    border-right: 5px solid #000000
+    border-bottom: 5px solid #000000
+    color: #000000
+    font-weight: bold
+    font-family: Pacifico
+    &:nth-child(1)
+      border-left: 5px solid #000000
+    &.red
+      bgcolor(red)
+    &.blue
+      bgcolor(blue)
+    &.green
+      bgcolor(green)
+    &.yellow
+      bgcolor(yellow)
+
+
+.result
+  flexbox(flex, row, center, center)
+  dimensions(304.5px, 30px)
+  border: 5px solid #000000
+  font-weight: bold
+  font-family: Pacifico
+  margin-bottom: 30px
+  &.show
+    color: #000000
+  &.hide
+    color: transparent
+
+.play-game
+    dimensions(150px, 40px)
+    background-color: red
+    border: 5px solid #000000
+    color: #00000
+    border-radius: 100px
+    font-size: 12px
+    cursor: pointer
+    outline: none
+    &:active
+      background-color: #FF7F50
