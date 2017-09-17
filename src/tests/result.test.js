@@ -4,7 +4,7 @@ import { expect } from 'chai';
 import { shallow } from 'enzyme';
 
 // Components
-import Result from '../components/result';
+import Result from '../components/Result';
 
 const props = {
     played: true,

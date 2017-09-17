@@ -4,7 +4,7 @@ import { expect } from 'chai';
 import { shallow } from 'enzyme';
 
 // Components
-import App from '../app/app';
+import App from '../containers/App';
 
 const wrapper = shallow(<App />);
 

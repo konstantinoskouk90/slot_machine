@@ -5,7 +5,7 @@ import { mount } from 'enzyme';
 import sinon from 'sinon';
 
 // Components
-import Play from '../components/play';
+import Play from '../components/Play';
 
 describe('tests for <Play> container', () => {
 
