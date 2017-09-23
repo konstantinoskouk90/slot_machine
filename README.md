@@ -1,12 +1,12 @@
 <h1>#slot_machine</h1>
 
-<h4>JavaScript app built using React.js / Stylus</h4>
+<h4>JavaScript app built using ReactJS / Stylus</h4>
 
 <h2>Features</h2>
 
 <ul>
-	<li>Consists of three wheels, with each containing four colors.</li>
-	<li>Spins the wheels when the Play button is clicked.</li>
+  <li>Consists of three wheels, with each containing four colors.</li>
+  <li>Spins the wheels when the Play button is clicked.</li>
   <li>Uses a random number to decide which color to land on.</li>
   <li>If all three wheels land on the same color a winning message is displayed.</li>
 </ul>
@@ -41,7 +41,7 @@
 <h2>TODO - Extend functionality and scale app</h2>
 
 <ul>
-	<li>Make the styling more automated.</li>
+  <li>Make the styling more automated.</li>
   <li>Add spin animation effect</li>
 </ul>
 
